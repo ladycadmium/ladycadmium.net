@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+
+/* The default is dark mode */
+@theme {
+  --color-bp: #121212; /* bp = Background Primary */
+  --color-bs: #2B2B2B; /* bs = Background Secondary */
+  --color-bt: #505050; /* bt = Background Tertiary */
+  --color-tp: #FFFFFF; /* tp = Text Primary */
+  --color-ta: #FFC000; /* ta = Text Accent */
+  --color-ac: #FFC000; /* ac = Accent */
+  --color-po: #3ACA24; /* po = Positive */
+  --color-ne: #DB3737; /* ne = Negative */
+}
+
+/* Light mode override */
+.light {
+    --color-bp: #FFF3CB;
+    --color-bs: #DAC57F;
+    --color-bt: #B8A156;
+    --color-tp: #000000;
+    --color-ta: #FF5C00;
+    --color-ac: #FF5C00;
+    --color-po: #3ACA24;
+    --color-ne: #DB3737;
+}
