@@ -30,6 +30,7 @@ $ npm install
 $ npm run dev
 ```
 The site can be accessed at `http://127.0.0.1:8080/`
+
 4) Build for production
 ```
 $ npm run build
