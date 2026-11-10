@@ -1,2 +1,4 @@
-node_modules/
-dist/
+/target
+.DS_Store
+**/*.rs.bk
+assets/style.css
