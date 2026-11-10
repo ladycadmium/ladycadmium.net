@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use web_sys::wasm_bindgen::JsCast;
 
 pub fn get_cookie(key: &str) -> Option<String> {
