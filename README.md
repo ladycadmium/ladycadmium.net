@@ -29,7 +29,7 @@ $ cargo install dioxus-cli
 ```
 $ dx serve --web
 ```
-The site can be accessed at `http://localhost:8080/`
+Dioxus provides a link to follow to view the page
 
 4) Build for production
 ```

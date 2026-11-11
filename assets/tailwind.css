@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+    /* Titlebar */
+    --color-titlebar:            #3A2B00;
+
+    /* Pagebody */
+    --color-pagebody:            #1B150B;
+
+    /* Generic */
+    --color-generic-accent:      #FFC000;
+    --color-generic-text-light:  #FFFFFF;
+    --color-generic-tab-focus:   #00FFEA;
+}
